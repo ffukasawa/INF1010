@@ -8,7 +8,7 @@ Leonardo Cravo Sampaio - 2210333
 #include <string.h>
 #include <ctype.h>
 
-#define ARQ_ENTRADA "entrada.txt"
+#define ARQ_ENTRADA "cpfs.txt"
 #define M        1201     // 1º primo após 1200
 #define MAXK     1000     // até 1000 CPFs
 #define CPF_LEN  12       // 11 dígitos + '\0'
