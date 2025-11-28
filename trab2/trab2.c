@@ -165,6 +165,7 @@ void bfs(int origem) {
     printf("nenhum nó deixou de ser visitado");
 }
 
+// Guloso / Dijkstra (item c)
 void imprime_caminho(int pai[], int v, int origem) {
     if (v == origem) {
         printf("%d", origem);
@@ -174,7 +175,7 @@ void imprime_caminho(int pai[], int v, int origem) {
     printf(" -> %d", v);
 }
 
-// Guloso / Dijkstra (item c)
+
 void guloso(int origem) {
     int dist[N+1];
     int usado[N+1];
